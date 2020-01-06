@@ -1,0 +1,90 @@
+#page-wrapper{
+	background: #efefef;
+}
+
+.sidebar {
+	background:#444444;
+}
+#user-section{
+	background: #444444;
+	padding: 5px;
+	text-align:center;
+	color:#fff;font-size: 13px;
+	font-weight:bold;padding:15px;
+}
+.sidebar ul li a{
+	color:#ccc;
+}
+.sidebar ul li a.active{
+	background-color:transparent;
+}
+
+.sidebar-search{
+	padding-left:0px;
+	padding-right:0px;
+	padding-top:0px;
+}
+.sidebar-search img{
+	width:90px;
+	height:100px;
+	border-radius:100px;
+	padding-bottom: 5px;
+}
+.sidebar ul li a:hover { 
+	background-color: transparent; 
+	text-decoration: underline;
+}
+#message_no{
+color:#ffc800;
+}
+#envelope_sec{
+color:#d9534f;
+}
+@media only screen and (max-width: 600px) {
+	ul.timeline > li > .timeline-panel {
+    float: left;
+    }
+    ul.timeline > li > .timeline-panel {
+    width: calc(100%);
+    width: -moz-calc(100%);
+    width: -webkit-calc(100%);
+}
+}
+
+.content {
+            width: 80%;
+            margin: 0 auto;
+            margin-top: 50px;
+    }
+.tt-hint,
+    .patient {
+        border: 1px solid #CCCCCC;
+        border-radius: 8px;
+        font-size: 15px;
+        height: 35px;
+        line-height: 30px;
+        outline: medium none;
+        padding: 8px 12px;
+        width: 350px;
+    }
+.tt-dropdown-menu {
+        width: 350px;
+        margin-top: 5px;
+        padding: 8px 12px;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-radius: 8px 8px 8px 8px;
+        font-size: 18px;
+        color: #111;
+        background-color: #F1F1F1;
+    }
+.btn-sm{
+        color: #337ab7;
+        padding: 0px 5px;
+        font-size: 0.9em;
+        font-weight: bold;
+    }
+    table td{
+        font-size: 0.9em;
+    }
